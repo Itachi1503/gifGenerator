@@ -3,8 +3,8 @@ import axios from 'axios';
 
 
 
-// const API_KEY = process.env.REACT_APP_GIPHY_API_KEY;
-const API_KEY = 's0dGy9Wm1TWase6kLwyZ72te51YxwhTP';
+const API_KEY = process.env.local.REACT_APP_GIPHY_API_KEY;
+
 const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`;
 
 function useGif(tag) {
