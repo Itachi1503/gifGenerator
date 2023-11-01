@@ -1,0 +1,90 @@
+body {
+  background-color: #1A1919;
+  color: white;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+  
+}
+
+.emoji-container {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  
+  
+  animation: bounce 10s  infinite ease-in-out;
+}
+
+
+.emoji-container-2 {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  
+  
+  animation: bounce 10s  infinite ease-in-out;
+}
+
+.emoji { 
+  width: 200px; 
+  box-shadow: 0px 0px 17px 0px #fe0061;
+  border-radius: 50%;
+}
+
+@keyframes bounce {
+  0% {
+    bottom: 20%;
+    transform: rotate(-20deg);
+  }
+
+  25% {
+    top: 20%;
+    transform: rotate(20deg);
+  }
+
+  50% {
+    bottom: 10%;
+    transform: rotate(-50deg);
+  }
+
+  75% {
+    top: 50%;
+    transform: rotate(60deg);
+  }
+
+  100% {
+    bottom: 20%;
+    transform: rotate(-20deg);
+  }
+}
+
+.heading {
+  max-width: 762px;
+  width: 100%;
+ 
+}
+
+.App h1 {
+  font-family: Irish Grover;
+  background-color: #3A3939;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 7px;
+}
+
+.content-container {
+  max-width: 764px;
+  width: 100%;
+  margin-top: 30px;
+  
+}
+

@@ -1,0 +1,15 @@
+.input-container {
+    max-width: 566px;
+    width: 80%;
+    background-color: #5A5A5A;
+    color: white;
+    border: 2px transparent;
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
